@@ -1,0 +1,91 @@
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "profileImage": "Profile.png",
+    "objective": "To obtain a software developer role where I can leverage my technical expertise to develop creative solutions that enhance user experience and drive organizational growth, while also advancing my professional development.",
+    "skills": [
+        "Basic Programming",
+        "Web Development",
+        "Team Collaboration",
+        "Problem Solving",
+        "Communication",
+        "Learning Agility"
+    ],
+    "technicalExpertise": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Git",
+        "SQL"
+    ],
+    "experience": [
+        {
+            "title": "Junior Software Developer",
+            "company": "Tech Innovations",
+            "location": "Cityville",
+            "duration": "(Jan 2023 - Present)"
+        },
+        {
+            "title": "Intern Software Developer",
+            "company": "Code Academy",
+            "location": "Townsville",
+            "duration": "(Jun 2022 - Dec 2022)"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Personal Portfolio Website",
+            "description": "Created a personal portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "link": "https://john-doe-portfolio.com",
+            "github": "https://github.com/johndoe/portfolio-website",
+            "duration": "(Nov 2022 - Dec 2022)"
+        },
+        {
+            "title": "Simple To-Do List App",
+            "description": "Developed a simple to-do list application using JavaScript and local storage.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "link": "https://john-doe-todo-app.com",
+            "github": "https://github.com/johndoe/todo-app",
+            "duration": "(Jan 2023 - Feb 2023)"
+        }
+    ],
+    "education": [
+        {
+            "degree": "BSc in Computer Science",
+            "institution": "City University",
+            "duration": "(Aug 2019 - May 2022)"
+        },
+        {
+            "degree": "High School Diploma",
+            "institution": "Townsville High School",
+            "duration": "(Jun 2015 - May 2019)"
+        }
+    ],
+    "interests": [
+        "Coding",
+        "Gaming",
+        "Reading",
+        "Traveling"
+    ],
+    "languages": [
+        "English",
+        "Spanish"
+    ],
+    "strengths": [
+        "Eager Learner",
+        "Adaptable",
+        "Team Player"
+    ]
+}

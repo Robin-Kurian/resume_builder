@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="titleName">
+    <!-- Title name will be updated using JavaScript -->
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <script src="scriptWithData.js" defer></script> -->
+  <script src="scriptUsingJson.js" defer></script>
+  <style></style>
+</head>
+
+<body>
+  <button class="no-print" onclick="printResume()">Print Resume</button>
+  <page size="A4">
+    <div class="cv">
+      <div id="header">
+        <div class="contactDetails">
+          <ul>
+            <li class="icon" title="Connect with me!">
+              <i class="fa fa-envelope">&nbsp;&nbsp;</i>
+            </li>
+            <li class="icon" title="Contact me!">
+              <i class="fa fa-phone" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainDetails">
+        <div id="headshot">
+          <img id="avatar" src="" alt="Profile Image" title="Profile Image" />
+        </div>
+        <div id="name">
+          <h1 id="firstName"></h1>
+          <h1 id="lastName"><span class="nameDetails">&nbsp;&nbsp;</span></h1>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div id="mainArea">
+        <section>
+          <article>
+            <div class="sectionContent">
+              <p id="objective"></p>
+              <!-- Objective -->
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>
+              Skills
+              <span style="font-size: 12px; margin-top: -10px"><br />Professional</span>
+            </h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="keySkills" id="skillsList">
+              <!-- Skills -->
+            </ul>
+            <br />
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>
+              Expertise
+              <span style="font-size: 12px; margin-top: -10px"><br />Technical</span>
+            </h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="keySkills" id="expertiseList">
+              <!-- Technical expertise -->
+            </ul>
+            <br />
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Experience</h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="list" id="experienceList">
+              <!-- Experience -->
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>
+              Projects
+              <span style="font-size: 12px; margin-top: -10px"><br />Personal</span>
+            </h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="list" id="projectsList">
+              <!-- Projects -->
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Education</h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="list" id="educationList">
+              <!-- Education -->
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+        <section class="page-break">
+          <div class="sectionTitle">
+            <h1>Interests</h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="keySkills" id="interestsList">
+              <!-- Interests -->
+            </ul>
+            <br />
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Strengths</h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="keySkills" id="strengthsList">
+              <!-- Strengths -->
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <div class="sectionTitle">
+            <h1>Languages</h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="keySkills" id="languagesList">
+              <!-- Languages -->
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+      </div>
+    </div>
+  </page>
+
+</body>
+
+</html>
