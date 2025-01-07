@@ -1,91 +1,150 @@
 {
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
+    "firstName": "Test",
+    "lastName": "Kurian",
+    "email": "dev.robinkurian@gmail.com",
+    "phone": "8848824751",
+    "github": "https://github.com/robin-kurian",
+    "teamGithub": "https://github.com/Evrz-Developers",
     "profileImage": "Profile.png",
     "objective": "To obtain a software developer role where I can leverage my technical expertise to develop creative solutions that enhance user experience and drive organizational growth, while also advancing my professional development.",
     "skills": [
-        "Basic Programming",
-        "Web Development",
+        "Frontend Development",
+        "Backend Development",
+        "Flutter Development",
         "Team Collaboration",
         "Problem Solving",
-        "Communication",
-        "Learning Agility"
+        "Communication Skills"
     ],
     "technicalExpertise": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Python",
+        "Next.js",
+        "React",
+        "Flutter",
+        "Django",
+        "DRF",
+        "PostgreSQL",
         "Git",
-        "SQL"
+        "Docker",
+        "Firebase",
+        "WordPress",
+        "Odoo ERP",
+        "jQuery",
+        "JavaScript",
+        "Tailwind CSS",
+        "Bootstrap",
+        "CSS",
+        "HTML5"
     ],
     "experience": [
         {
-            "title": "Junior Software Developer",
-            "company": "Tech Innovations",
-            "location": "Cityville",
-            "duration": "(Jan 2023 - Present)"
+            "title": "Full Stack Developer",
+            "company": "Mobiux Labs",
+            "highlights": "Developed and maintained web applications using Next.js, Tailwind CSS, Django, Flutter, and WordPress.",
+            "location": "Bengaluru, Karnataka",
+            "duration": "(May 2023 - Present)"
         },
         {
-            "title": "Intern Software Developer",
-            "company": "Code Academy",
-            "location": "Townsville",
-            "duration": "(Jun 2022 - Dec 2022)"
+            "title": "Python Odoo Developer",
+            "company": "Cybrosys Technologies",
+            "highlights": "Developed many Odoo ERP apps and modules for the Odoo store and clients, gaining insights into business processes and functionality.",
+            "location": "Calicut",
+            "duration": "(Mar 2022 - Apr 2023)"
+        },
+        {
+            "title": "Jr. Python/Django Developer",
+            "company": "Strokx Technologies",
+            "highlights": "Interned in web development, contributing to small projects and progressing from static pages to dynamic backend functionality. Developed a streaming website using APIs, enhancing my full-stack development skills.",
+            "location": "Ernakulam",
+            "duration": "(Jun 2019 - Nov 2020)"
         }
     ],
     "projects": [
         {
-            "title": "Personal Portfolio Website",
-            "description": "Created a personal portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.",
+            "title": "Flutter App for Baby Paradise",
+            "description": "Developing an E-com app with Flutter and Firebase for shop management, featuring Authentication, Admin panel, user privileges, Product Creation, and Listing.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "Flutter",
+                "Firebase"
             ],
-            "link": "https://john-doe-portfolio.com",
-            "github": "https://github.com/johndoe/portfolio-website",
-            "duration": "(Nov 2022 - Dec 2022)"
+            "link": "",
+            "github": "https://github.com/Evrz-Developers/marginpoint",
+            "duration": "(Apr 2024 - Present) :: Pending Play Store deployment"
         },
         {
-            "title": "Simple To-Do List App",
-            "description": "Developed a simple to-do list application using JavaScript and local storage.",
+            "title": "Ecom Website for Baby Paradise",
+            "description": "Created an E-commerce site for Shop management with basic features, deployed frontend on Netlify and backend on PythonAnywhere.",
             "technologies": [
-                "JavaScript",
+                "Next.js",
+                "Tailwind CSS",
+                "Django",
+                "DRF"
+            ],
+            "link": "https://marginpoint.netlify.app/",
+            "github": "https://github.com/Evrz-Developers/baby_paradise_frontend",
+            "github2": "https://github.com/Evrz-Developers/baby_paradise_backend",
+            "duration": "(Mar 2024 - Present) //More features to discuss and add"
+        },
+        {
+            "title": " Image Viewer(Extension)",
+            "description": "Created a Browser extension to preview images(SVG, PNG, JPG) with an additional feature of pasting svg code and viewing it, which is a useful tool for web developers. Deployed on Microsoft Edge Addons.",
+            "technologies": [
+                "Javascript",
                 "HTML",
                 "CSS"
             ],
-            "link": "https://john-doe-todo-app.com",
-            "github": "https://github.com/johndoe/todo-app",
-            "duration": "(Jan 2023 - Feb 2023)"
+            "link": "https://microsoftedge.microsoft.com/addons/detail/image-viewer/aallahhhkahedbejllfgdmldhocdcngk",
+            "github": "https://github.com/Evrz-Developers/image-viewer-extension",
+            "duration": "(Oct 2024)"
+        },
+        {
+            "title": "Resume Maker(Web)",
+            "description": "Created a resume maker website using JavaScript, JSON, HTML, and CSS, enabling users to quickly generate a resume by inputting their details. Future plans include adding features and migrating to Next.js.",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Json"
+            ],
+            "link": "https://evrz-developers.github.io/resume-maker-js/",
+            "github": "https://github.com/Evrz-Developers/resume-maker-js",
+            "duration": "(Oct 2024)"
         }
     ],
     "education": [
         {
-            "degree": "BSc in Computer Science",
-            "institution": "City University",
-            "duration": "(Aug 2019 - May 2022)"
+            "degree": "BCA",
+            "institution": "Nirmala College Of Arts & Science",
+            "duration": "(Mar 2016 - Mar 2019)"
         },
         {
-            "degree": "High School Diploma",
-            "institution": "Townsville High School",
-            "duration": "(Jun 2015 - May 2019)"
+            "degree": "HSE",
+            "institution": "St.joseph's HSS",
+            "duration": "(Jun 2014 - Mar 2016)"
+        },
+        {
+            "degree": "SSLC",
+            "institution": "Little Flower HSS",
+            "duration": "(Mar 2014)"
         }
     ],
     "interests": [
         "Coding",
-        "Gaming",
+        "Drawing",
+        "Researching",
         "Reading",
-        "Traveling"
+        "Traveling",
+        "Adventure touring"
     ],
     "languages": [
         "English",
-        "Spanish"
+        "Malayalam",
+        "Tamil"
     ],
     "strengths": [
-        "Eager Learner",
-        "Adaptable",
-        "Team Player"
+        "Self-Learning",
+        "Adaptability",
+        "Problem Solving",
+        "Interactivity",
+        "Continuous Learning",
+        "Collaboration"
     ]
 }

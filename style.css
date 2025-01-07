@@ -212,9 +212,22 @@ a,
     line-height: 20pt;
 }
 
+/* .projectTech {
+    font-weight: bold;
+} */
+
+.projectHighlights {
+    font-style: italic;
+    /* font-size: 11pt; */
+    /* font-weight: bold; */
+}
+
 #mainArea,
 #mainAreaTwo {
     padding: 0 8mm;
+}
+#mainArea section:last-child {
+    border-bottom: 1px solid #444; /* Add border to the last section */
 }
 
 #headshot {
@@ -233,7 +246,7 @@ a,
 
 .contactDetails {
     float: right;
-    margin: 35mm 8mm 0 0;
+    margin: 28mm 8mm 0 0;
     float: right;
 }
 
